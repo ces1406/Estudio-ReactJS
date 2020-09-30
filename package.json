@@ -1,0 +1,28 @@
+{
+  "name": "estudioreactjs",
+  "version": "1.0.0",
+  "description": "estudio de reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ces1406/EstudioReactJS.git"
+  },
+  "keywords": [
+    "estudio",
+    "react",
+    "javascript"
+  ],
+  "author": "cesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ces1406/EstudioReactJS/issues"
+  },
+  "homepage": "https://github.com/ces1406/EstudioReactJS#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
