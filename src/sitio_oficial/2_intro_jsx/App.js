@@ -7,7 +7,12 @@ const usuario1 ={
     firstName: 'Juan',
     lastName: 'Perez'
 };
-const elemento1 = <h1>Hola {formatName(usuario1)} !</h1>
+
+// expresiones embebidas dentro de JSX
+const elemento1 = 
+    <h1 style={{borderColor:'rgb(144,122,233)',borderStyle:'solid'}}>
+        Hola {formatName(usuario1)} !
+    </h1>;
 
 class App extends React.Component {
     render(){
