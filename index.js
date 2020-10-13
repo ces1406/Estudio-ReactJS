@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 //import App from './src/sitio_oficial/7_conditional_rendering/App';
 //import App from './src/sitio_oficial/8_lists_and_keys/App';
 //import App from './src/sitio_oficial/9_forms/App';
-import App from './src/sitio_oficial/10_lifting_state_up/App';
+//import App from './src/sitio_oficial/10_lifting_state_up/App';
+import App from './src/sitio_oficial/11_composit_vs_inherit/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
