@@ -13,7 +13,8 @@ import ReactDOM from 'react-dom';
 //import App from './src/sitio_oficial/10_lifting_state_up/App';
 //import App from './src/sitio_oficial/11_composit_vs_inherit/App';
 //import App from './src/sitio_oficial/12_derived_state/App';
-import App from './src/Ref/App';
+//import App from './src/Ref/App';
+import App from './src/Padres_hijos/App';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
