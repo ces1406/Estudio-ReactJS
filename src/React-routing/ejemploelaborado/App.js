@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Route, Link, Switch, NavLink,BrowserRouter as Router } from 'react-router-dom';
 import { Personal, Materias, Trabajos, Error404 } from './Pages'
 import { FaHome } from 'react-icons/fa';

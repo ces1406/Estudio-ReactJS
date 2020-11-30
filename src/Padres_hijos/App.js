@@ -2,11 +2,13 @@ import React,{Component} from 'react';
 
 class Padre extends Component{
     constructor(props){
-        super(props)
-        this.state = { nombre: 'initial name' }
+        super(props);
+        this.state = { nombre: 'initial name' };
         this.cambiarNombre = this.cambiarNombre.bind(this);
     }
-    cambiarNombre(n){ this.setState({nombre:n}) }
+    cambiarNombre(n){ 
+        this.setState({nombre:n});
+    }
     render(){
         return(
             <div>
@@ -49,5 +51,4 @@ export default class App extends Component{
     render(){
         return <Padre />
     }
-
 }
